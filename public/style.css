@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@700&family=Poppins&display=swap');
+/* font-family: 'Gemunu Libre', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body {
+    background-color: lightskyblue;
+}
+
+.chat-container {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    height: 80vh;
+    overflow: scroll;
+}
+
+h1 {
+    font-family: 'Gemunu Libre', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: navy;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10pt;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+button:hover{
+    background-color:rgb(89, 163, 209);
+    color: rgb(1, 1, 65);
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10pt;
+    list-style-type: none;
+    background-color: aliceblue;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+
+input[type=text] {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10pt;
+    border: 1px solid navy;
+    border-radius: 8px;
+    padding: 10px ;
+}
